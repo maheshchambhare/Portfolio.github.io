@@ -14,7 +14,7 @@
 	}
 }
 
-$bg-image: 'https://i.ibb.co/RDTnNrT/animated-text-fill.png';
+$bg-image: url('../assets/projects/animated-text-fill.png');
 
 .home-main {
 	margin-top: 350px;
@@ -34,7 +34,7 @@ $bg-image: 'https://i.ibb.co/RDTnNrT/animated-text-fill.png';
 
 		// z-index: 100;
 
-		background: url($bg-image) repeat-y;
+		background: $bg-image repeat-y;
 		-webkit-background-clip: text;
 		background-clip: text;
 
@@ -45,15 +45,6 @@ $bg-image: 'https://i.ibb.co/RDTnNrT/animated-text-fill.png';
 
 		-webkit-transform: translate3d(0, 0, 0);
 		-webkit-backface-visibility: hidden;
-	}
-
-	@keyframes aitf {
-		0% {
-			background-position: 0% 50%;
-		}
-		100% {
-			background-position: 100% 50%;
-		}
 	}
 
 	@media (max-width: 768px) {
@@ -231,7 +222,7 @@ $bg-image: 'https://i.ibb.co/RDTnNrT/animated-text-fill.png';
 
 					/* Clip Background Image */
 
-					background: url($bg-image) repeat-y;
+					background: $bg-image repeat-y;
 					-webkit-background-clip: text;
 					background-clip: text;
 
@@ -306,7 +297,7 @@ $bg-image: 'https://i.ibb.co/RDTnNrT/animated-text-fill.png';
 
 			/* Clip Background Image */
 
-			background: url($bg-image) repeat-y;
+			background: $bg-image repeat-y;
 			-webkit-background-clip: text;
 			background-clip: text;
 
@@ -426,5 +417,14 @@ $bg-image: 'https://i.ibb.co/RDTnNrT/animated-text-fill.png';
 				max-height: 30px;
 			}
 		}
+	}
+}
+
+@keyframes aitf {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
 	}
 }
