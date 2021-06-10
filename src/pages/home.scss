@@ -51,6 +51,7 @@ $bg-image: url('../assets/projects/animated-text-fill.png');
 		margin-top: 100px;
 		height: 80vh;
 		h1 {
+			background-attachment: initial;
 			font: 700 3em/1 'Oswald', sans-serif;
 		}
 	}

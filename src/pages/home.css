@@ -48,6 +48,7 @@
     height: 80vh;
   }
   .home-main h1 {
+    background-attachment: initial;
     font: 700 3em/1 'Oswald', sans-serif;
   }
 }

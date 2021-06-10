@@ -235,8 +235,8 @@ const ButtonStyle = styled.div`
             button2="Download Apk"
             next={true}
             bottun2Link="https://firebasestorage.googleapis.com/v0/b/hariom-electricals.appspot.com/o/hariom%20files%2FHariOmElectricals.apk?alt=media&token=616fa39e-92d3-4230-a7dc-535cf889d0b2"
-            desc={["Hariom Electricals is a app which is helping the people who work at, ",<span>BRTS</span>,
-            " which is an integrated bus rapid transit and public bus transport system for Surat, Gujarat, India🇮🇳,",
+            desc={["Hariom Electricals is an app that is helping the people who work at, ",<span>BRTS</span>,
+            " which is an integrated bus rapid transit and public bus transport system for Surat, Gujarat, India🇮🇳",
             <br/>,
             <br/>,
             "This app is Responsible for handling their day to day ",<span>Tasks</span>," like",
@@ -248,7 +248,7 @@ const ButtonStyle = styled.div`
                 <li>Applying for leave by Employee</li>
                 <li>Leave approved or Decline by Admin</li>
                 <li>Task given by Admin</li>
-                <li>Given task completed or declined by Employee</li>
+                <li>Given the task completed or declined by Employee</li>
             </ul>
             ,"To know more Click on Read more"
         
@@ -263,13 +263,13 @@ const ButtonStyle = styled.div`
             // button2="Live Demo"
             title="Shows Finder" 
             number="02" 
-            desc={["This project is using "," ",<span>TMDB API </span>,"   "," And ", "  ",<span>Youtube Api</span>," " ," for gathering data,",<br/>,<br/>,
-            "What can this peoject Do ?",
+            desc={["This project is using "," ",<span>TMDB API </span>,"   "," And ", "  ",<span>Youtube API</span>," " ," for gathering data,",<br/>,<br/>,
+            "What can this project Do?",
             <ul>
                 <li>Find the Trending Shows</li>
                 <li>Find whats Trending on Netflix</li>
                 <li>Find shows by genre</li>
-                <li>Watch trailer of that show using Youtube Api by clicking on show</li>
+                <li>Watch trailer of that show using Youtube API by clicking on the show</li>
             </ul>
             ]}
             />
@@ -283,7 +283,7 @@ const ButtonStyle = styled.div`
             title="Github Profile Finder"
              number="03" 
              desc={["This project is using ","",<span>Github API </span> ,<br/>,<br/>,
-            "What can this peoject Do ?",
+            "What can this project Do ?",
             <ul>
                 <li>Find user by Searching for username</li>
                 <li>Loading Avatar of that User</li>
@@ -305,7 +305,7 @@ const ButtonStyle = styled.div`
             title="Weather Search By City" 
             number="04" 
             desc={["This project is using ","",<span>Open Weather API </span>," ","And"," ",<span>Unsplash API </span>,"",<br/>,<br/>,
-            "What can this peoject Do ?",
+            "What can this project Do ?",
             <ul>
                 <li>Get Weather by City Name</li>
                 <li>Getting Photo of that City Name</li>
