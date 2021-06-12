@@ -33,6 +33,7 @@
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.118);
   /* Clip Background Image */
   background: url("../assets/projects/animated-text-fill.png") repeat-y;
+  background-size: cover;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -40,6 +41,9 @@
   /* Activate hardware acceleration for smoother animations */
   -webkit-transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 @media (max-width: 768px) {
@@ -296,6 +300,7 @@
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.118);
   /* Clip Background Image */
   background: url("../assets/projects/animated-text-fill.png") repeat-y;
+  background-size: cover;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -303,6 +308,9 @@
   /* Activate hardware acceleration for smoother animations */
   -webkit-transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 @media (max-width: 768px) {
@@ -381,11 +389,15 @@
   background: url("../assets/projects/animated-text-fill.png") repeat-y;
   -webkit-background-clip: text;
   background-clip: text;
+  background-size: cover;
   -webkit-text-fill-color: transparent;
   -webkit-animation: aitf 80s linear infinite;
   /* Activate hardware acceleration for smoother animations */
   -webkit-transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 @media (max-width: 768px) {

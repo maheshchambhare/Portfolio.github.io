@@ -35,6 +35,8 @@ $bg-image: url('../assets/projects/animated-text-fill.png');
 		// z-index: 100;
 
 		background: $bg-image repeat-y;
+		background-size: cover;
+
 		-webkit-background-clip: text;
 		background-clip: text;
 
@@ -45,6 +47,7 @@ $bg-image: url('../assets/projects/animated-text-fill.png');
 
 		-webkit-transform: translate3d(0, 0, 0);
 		-webkit-backface-visibility: hidden;
+		appearance: none;
 	}
 
 	@media (max-width: 768px) {
@@ -224,6 +227,7 @@ $bg-image: url('../assets/projects/animated-text-fill.png');
 					/* Clip Background Image */
 
 					background: $bg-image repeat-y;
+					background-size: cover;
 					-webkit-background-clip: text;
 					background-clip: text;
 
@@ -234,6 +238,7 @@ $bg-image: url('../assets/projects/animated-text-fill.png');
 
 					-webkit-transform: translate3d(0, 0, 0);
 					-webkit-backface-visibility: hidden;
+					appearance: none;
 
 					@media (max-width: 768px) {
 						font: 700 3em/1 'Oswald', sans-serif;
@@ -301,6 +306,7 @@ $bg-image: url('../assets/projects/animated-text-fill.png');
 			background: $bg-image repeat-y;
 			-webkit-background-clip: text;
 			background-clip: text;
+			background-size: cover;
 
 			-webkit-text-fill-color: transparent;
 			-webkit-animation: aitf 80s linear infinite;
@@ -309,6 +315,7 @@ $bg-image: url('../assets/projects/animated-text-fill.png');
 
 			-webkit-transform: translate3d(0, 0, 0);
 			-webkit-backface-visibility: hidden;
+			appearance: none;
 
 			@media (max-width: 768px) {
 				font: 700 2em/1 'Oswald', sans-serif;
