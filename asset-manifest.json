@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.048a7791.chunk.css",
+    "main.css": "/static/css/main.11d7d97d.chunk.css",
     "main.js": "/static/js/main.07a7792a.chunk.js",
     "main.js.map": "/static/js/main.07a7792a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1e185990.js",
@@ -8,7 +8,7 @@
     "static/js/2.e054a413.chunk.js": "/static/js/2.e054a413.chunk.js",
     "static/js/2.e054a413.chunk.js.map": "/static/js/2.e054a413.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.048a7791.chunk.css.map": "/static/css/main.048a7791.chunk.css.map",
+    "static/css/main.11d7d97d.chunk.css.map": "/static/css/main.11d7d97d.chunk.css.map",
     "static/js/2.e054a413.chunk.js.LICENSE.txt": "/static/js/2.e054a413.chunk.js.LICENSE.txt",
     "static/media/Wheather-thumbnail01.849b2e90.png": "/static/media/Wheather-thumbnail01.849b2e90.png",
     "static/media/admin-screens.9e597275.svg": "/static/media/admin-screens.9e597275.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.1e185990.js",
     "static/js/2.e054a413.chunk.js",
-    "static/css/main.048a7791.chunk.css",
+    "static/css/main.11d7d97d.chunk.css",
     "static/js/main.07a7792a.chunk.js"
   ]
 }
