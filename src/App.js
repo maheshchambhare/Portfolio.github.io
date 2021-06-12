@@ -5,6 +5,7 @@ import NavMenu from './components/NavMenu';
 
 import {
   BrowserRouter as Router,
+  HashRouter as HRouter,
    Route, Switch 
 } from "react-router-dom";
 
@@ -17,7 +18,8 @@ import HariomElectricals from './pages/HariomElectricals';
 function App() {
   return (
     <div className="App">
-    <Router>
+    {/* <Router> */}
+      <HRouter >
        <NavMenu />
         <Switch>
           <Route path="/about">
@@ -36,7 +38,8 @@ function App() {
             <Home />
           </Route>
         </Switch>
-     </Router>
+        </HRouter>
+     {/* </Router> */}
   
     </div>
   );
